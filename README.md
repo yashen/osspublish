@@ -11,7 +11,7 @@ publish software use aliyun oss
     osspublish storage <region> <accessKeyId> <accessKeySecret> <bucket> <root>
 
     //Set uploadfiles's version and path
-    osspublish upgrade <versionName> <localfilepath>
+    osspublish version <versionName> <localfilepath>
 
     //Upload file
     //If accessKeyId and accessKeySecret is right,use
