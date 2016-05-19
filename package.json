@@ -1,24 +1,27 @@
 {
-  "name": "osspublish",
-  "version": "1.0.2",
-  "description": "publish software on aliyun oss",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin":{
-    "osspublish":"./bin/osspublish"  
-  },
-  "files":[
-       "lib/index.js",
-       "bin/osspublish"  
-  ],
-  "author": "yashen@gmail.com",
-  "respository":"https://github.com/yashen/osspublish.git",
-  "license": "ISC",
-  "dependencies": {
-    "ali-oss": "*",
-    "co": "*",
-    "commander": "*"
-  }
+    "name": "osspublish",
+    "version": "1.0.3",
+    "description": "publish software on aliyun oss",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "osspublish": "./bin/osspublish"
+    },
+    "files": [
+        "lib/index.js",
+        "bin/osspublish"
+    ],
+    "author": "yashen@gmail.com",
+    "respository": {
+        "type": "git",
+        "url": "https://github.com/yashen/osspublish.git"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "ali-oss": "*",
+        "co": "*",
+        "commander": "*"
+    }
 }
